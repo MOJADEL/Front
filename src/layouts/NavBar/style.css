@@ -1,0 +1,46 @@
+/* Navbar */
+.navbar-wrapper {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'NPSfontBold';
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+  
+.navbar-container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.community,
+.recipe,
+.trade,
+.nearby {
+    cursor: pointer;
+    border-radius: 25px; /* 약간 둥글게 */
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+/* Hover 효과 */
+.community:hover,
+.recipe:hover,
+.trade:hover,
+.nearby:hover {
+    background-color: beige;
+    color: rgba(0, 0, 0, 1);
+    transition: transform 0.3s ease-in-out; /* 애니메이션 추가 */
+    transform: scale(1.05); /* 마우스를 올렸을 때 약간 확대 */
+}
+  
+/* 활성화 상태 */
+.community.active,
+.recipe.active,
+.trade.active,
+.nearby.active {
+    color: rgba(25, 219, 138, 0.95);
+    /* 기타 스타일 */
+}

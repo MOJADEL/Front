@@ -1,0 +1,98 @@
+#trade-top-wrapper {
+    padding: 40px 0px 40px;
+  
+    display: flex;
+    justify-content: center;
+    font-family: "NPSfontBold";
+  }
+  
+  .trade-top-container {
+    width: 1200px;
+    min-width: 1200px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+  }
+  
+  .trade-top-title {
+    color: rgba(0, 0, 0, 1);
+  
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.8px;
+  }
+  
+  .trade-top-content-box {
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .trade-top-contents-title {
+    color: rgba(0, 0, 0, 1);
+  
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  
+  .trade-top-contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  
+  #trade-bottom-wrapper {
+    padding: 40px 0;
+  
+    display: flex;
+    justify-content: center;
+  
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: "NPSfontBold";
+  }
+  
+  .trade-bottom-container {
+    width: 1200px;
+    min-width: 1200px;
+    min-height: 313px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .trade-bottom-title {
+    color: rgba(0, 0, 0, 1);
+  
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+  }
+  
+  .trade-bottom-contents-box {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+  }
+  
+  .trade-bottom-current-contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3x3 그리드로 설정 */
+    gap: 35px;
+    
+  }
+  
+  .trade-bottom-pagination-box {
+    margin-top: 60px;
+  
+    display: flex;
+    justify-content: center;
+  }
+  

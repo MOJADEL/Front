@@ -1,0 +1,135 @@
+#recipe-top-wrapper {
+  padding: 40px 0px 40px;
+
+  display: flex;
+  justify-content: center;
+  font-family: "NPSfontBold";
+
+  /* background-color: rgba(255,248,241,255); */
+}
+
+.recipe-top-container {
+  width: 1200px;
+  min-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.recipe-top-title {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.8px;
+}
+
+.recipe-section-general {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  background-color: rgba(255, 248, 241, 255);
+}
+
+.recipe-section-conveinence {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background-color: rgba(255, 250, 224, 255);
+}
+
+.recipe-section-title {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.recipe-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+#recipe-bottom-wrapper {
+  padding: 40px 0;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: "NPSfontBold";
+}
+
+.recipe-bottom-container {
+  width: 1200px;
+  min-width: 1200px;
+  min-height: 313px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.recipe-bottom-title {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.recipe-bottom-contents-box {
+  width: 100%;
+  display: grid;
+  gap: 24px;
+}
+
+.recipe-bottom-current-contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3x3 그리드로 설정 */
+  gap: 35px;
+}
+
+.recipe-bottom-pagination-box {
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: center;
+}
+.recipe-bottom-selector {
+  display: flex;
+  justify-content: center; /* 가운데 정렬 */
+  gap: 30px; /* 버튼 사이 간격 */
+  margin-bottom: 20px; /* 아래 여백 */
+}
+
+.recipe-bottom-selector button {
+  padding: 10px 20px; /* 버튼 내부 패딩 */
+  font-size: 24px; /* 폰트 크기 */
+  border: none;
+  border-radius: 43px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease; /* 부드러운 전환 효과 */
+
+  color: black; /* 선택된 버튼의 글자색 */
+}
+
+.recipe-bottom-selector button.selected {
+  color: black; /* 선택된 버튼의 글자색 */
+  background-color: rgba(0, 123, 255, 1); /* 선택된 버튼의 배경색 */
+}
+
+.recipe-bottom-selector button:hover {
+  background-color: rgba(0, 123, 255, 0.4); /* 마우스 호버 시 배경색 */
+}

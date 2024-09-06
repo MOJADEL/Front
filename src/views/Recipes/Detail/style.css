@@ -1,0 +1,324 @@
+#board-detail-wrapper {
+  padding: 100px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.board-detail-container {
+  width: 996px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#board-detail-top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.board-detail-top-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board-detail-title {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.board-detail-top-sub-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board-detail-write-info-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.board-detail-writer-profile-image {
+  border-radius: 50% 50%;
+  width: 32px;
+  height: 32px;
+
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.board-detail-writer-profile-image:hover {
+  cursor: pointer;
+}
+
+.board-detail-writer-nickname {
+  color: rgba(0, 0, 0, 0.7);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.board-detail-writer-nickname:hover {
+  cursor: pointer;
+}
+
+.board-detail-info-divider,
+.board-detail-write-date {
+  color: rgba(0, 0, 0, 0.4);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.board-detail-more-box {
+  position: absolute;
+  top: -81px;
+  right: 0px;
+
+  background-color: rgba(255, 255, 255, 1);
+
+  box-shadow: 0px 4px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+.board-detail-update-button {
+  width: 143px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.board-detail-update-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 1);
+}
+
+.board-detail-delete-button {
+  width: 143px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(255, 0, 0, 0.6);
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.board-detail-delete-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: rgba(255, 0, 0, 1);
+}
+
+.board-detail-top-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.board-detail-main-text {
+  color: rgba(0, 0, 0, 0.78);
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+
+  white-space: pre-wrap;
+}
+
+.board-detail-main-image {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.board-detail-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board-detail-bottom-button-box {
+  display: flex;
+  gap: 12px;
+}
+
+.board-detail-bottom-button-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.board-detail-bottom-button-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.board-detail-bottom-favorite-box {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  padding: 20px 20px 40px;
+}
+
+.board-detail-bottom-favorite-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.board-detail-bottom-favorite-title {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.board-detail-bottom-favorite-content {
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.board-detail-bottom-comment-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board-detail-bottom-comment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.board-detail-bottom-comment-title {
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.board-detail-bottom-comment-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.board-detail-bottom-comment-pagination-box {
+  display: flex;
+  justify-content: center;
+}
+
+.board-detail-bottom-comment-input-box {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.board-detail-bottom-comment-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board-detail-bottom-comment-textarea {
+  outline: none;
+  border: none;
+  background: none;
+  resize: none;
+
+  color: rgba(0, 0, 0, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+
+  overflow: hidden;
+}
+
+.board-detail-bottom-comment-button-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.board-detail-top-main.full-screen {
+  height: 317px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.recipe-detail-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* 스텝 간의 간격 */
+  gap: 20px; /* 스텝 번호, 텍스트, 이미지 사이의 간격 */
+}
+
+.recipe-detail-step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #8cc540; /* 녹색 배경 */
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  flex-shrink: 0; /* 번호가 작아지지 않도록 고정 */
+}
+
+.recipe-detail-step-content {
+  flex-grow: 1; /* 텍스트가 남은 공간을 채우도록 설정 */
+  color: rgba(0, 0, 0, 0.78);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  white-space: pre-wrap; /* 텍스트 줄바꿈 유지 */
+}
+
+.recipe-detail-step-image {
+  width: 160px; /* 이미지 크기 */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px; /* 모서리 둥글게 처리 */
+  flex-shrink: 0; /* 이미지가 작아지지 않도록 고정 */
+}
+.board-detail-cooking-time {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.78);
+  margin-bottom: 20px; /* 텍스트와 다음 요소 간의 간격 */
+}
